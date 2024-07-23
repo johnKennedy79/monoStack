@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and API's</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./app.js" defer></script>
+  </head>
+  <body>
+    <h1>Instafacecord</h1>
+    <form>
+      <label for="Name">Your Name</label>
+      <input
+        type="text"
+        name="Name"
+        id="Name"
+        placeholder="What do we call you?"
+      />
+      <label for="Message">Message</label>
+      <textarea
+        name="Message"
+        id="Message"
+        cols="30"
+        rows="10"
+        placeholder="Type your message here..."
+      ></textarea>
+      <button type="submit" id="sendbtn">Send</button>
+    </form>
+    <article id="posthistory"></article>
+  </body>
+</html>
